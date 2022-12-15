@@ -1,0 +1,36 @@
+.main__container_employees{
+    max-width: 1250px;
+    width: 100%;
+    margin: -50px auto 0px auto;
+}
+.employees__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #00214D;
+    margin: 0 0 84px 0;
+}
+.employees__items_item{
+    max-width: 350px;
+    width: 100%;
+}
+.items__item_full-name{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #00214D;
+    text-align: center;
+}
+.items__item_job-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.employees__items{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 100px;
+    margin: 0 0 136px 0;
+}

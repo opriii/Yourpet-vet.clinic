@@ -1,0 +1,439 @@
+@import "services.css";
+@import "therapy.css";
+@import "employees.css";
+@import "about_company.css";
+@import "contacts.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E9F4FF;
+}
+.body__active{
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+/*header*/
+.header__wrapper{
+    margin: 0 0 106px 0;
+}
+.header__container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    position: relative;
+
+}
+.header__container_logo{
+    max-width: 135px;
+    max-height: 48px;
+}
+.header__container_logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header__container_nav-item{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.045em;
+    color: #00214D;
+    margin: 0 50px 0 0;
+}
+.header__container_nav-item:last-child{
+    margin: 0;
+}
+.header__container_nav-last-item{
+    font-family: 'Montserrat';
+    padding: 10px 13px;
+    background: #3781E3;
+    border-radius: 6px;
+    color: #F5F5F5;
+    border: none;
+}
+
+
+
+/*main*/
+.main__container_animals{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main__animals{
+    display: flex;
+    margin: 0 0 55px 0;
+}
+.left__nav_border{
+    margin: 15px 16px 0 0;
+    max-width: 120px;
+    width: 100%;
+    border-top: 2px solid #3781E3;
+}
+.item__left_nav{
+    margin: 0 0 47px 0;
+    display: flex;
+}
+.left__nav_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+    color: #00214D;
+}
+.item__left_title{
+    max-width: 699px;
+
+}
+.left__title_body{
+    margin: 0 0 46px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #00214D;
+}
+.left__title_sub-body{
+    max-width: 644px;
+    margin: 0 0 46px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: rgba(58, 58, 58, 0.75);
+}
+.left__title_button{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    width: 221px;
+    height: 80px;
+    background: #3781E3;
+    border-radius: 20px;
+    border: none;
+}
+.item__right_wrapper{
+    padding: 0 0 0 70px;
+    width: 492px;
+    background: rgba(254, 254, 255, 0.6);
+    border-radius: 50%;
+    max-height: 548px;
+}
+.item__right_wrapper-dog{
+    max-width: 425px;
+    max-height: 580px;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 26px;
+
+}
+.item__right_wrapper-dog img{
+    max-width: 425px;
+    max-height: 580px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main__container_sentence{
+    padding: 55px 0 55px 0;
+    background: #DCEEFF;
+}
+.main__sentence{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main__sentence_title{
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #00214D;
+}
+.main__sentence_sub-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3A3A3A;
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+.cards__item_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #00214D;
+    margin: 0 0 8px 0;
+}
+.cards__item_body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: rgba(58, 58, 58, 0.75);
+}
+.sentence__cards_item{
+    padding: 32px 35px 72px 32px;
+    max-width: 350px;
+    max-height: 350px;
+    background: #FFFFFF;
+    border-radius: 20px;;
+}
+.cards__item_img{
+    margin: 0 0 14px 0;
+}
+.main__sentence_cards{
+    display: flex;
+    gap: 95px;
+    margin: 0 0 33px 0;
+}
+.main__sentence_all-services{
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+}
+.sentence__all-services_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3781E3;
+    margin: 0 22px 0 0;
+}
+.sentence__all-services_img{
+    margin: 4px 0 0 0;
+    width: 32px;
+    height: 32px;
+}
+.sentence__all-services{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main__container_about-us{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 110px 0 102px 0;
+}
+.main__about-us{
+    display: flex;
+    gap: 102px;
+}
+.about-us__right_title{
+    max-width: 507px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #00214D;
+}
+.about-us__right_info{
+    max-width: 568px;
+    margin: 0 0 92px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3A3A3A;
+}
+.about-us__right_button{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    background: #3781E3;
+    border-radius: 20px;
+    padding: 26px 32px;
+    max-width: 193px;
+    max-height: 80px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.main__container_veterinarians{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 155px 0;
+}
+.veterinarians__title{
+    display: flex;
+    margin: 0 0 42px 0;
+}
+.veterinarians__title_body{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    margin: 0 62px 0 0;
+    color: #00214D;
+}
+.veterinarians__title_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title__button_body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3781E3;
+    margin: 0 22px 0 0;
+}
+.title__button_img{
+    margin: 5px 0 0 0;
+}
+.veterinarians__item{
+    max-width: 350px;
+}
+.veterinarians__item_img{
+    margin: 0 0 28px 0;
+}
+.veterinarians__item_img img{
+    max-width: 350px;
+    max-height: 346px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.veterinarians__item_full-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #00214D;
+    margin: 0 0 8px 0;
+}
+.veterinarians__item_job-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #3A3A3A;
+}
+.veterinarians__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*foother*/
+.foother__wrapper{
+    background: #D5E5F5;
+}
+.foother__container{
+    gap: 101px;
+    padding: 56px 0;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.foother__сompany{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.company__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #00214D;
+}
+.company__item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00214D;
+}
+.address__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #00214D;
+    margin: 0 0 11px 0;
+}
+.address__info{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 157px;
+    color: #00214D;
+}
+.foother__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #00214D;
+}
+.contacts__title{
+    margin: 0 0 24px 0;
+}
+.contacts__tel{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0E52AC;
+    margin: 0 0 16px 0;
+}
+.contacts__schedule{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00214D;
+}
+.popap__container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 539px;
+    margin: 0 auto;
+}

@@ -1,0 +1,86 @@
+.main__container_therapy {
+    max-width: 1250px;
+    width: 100%;
+    margin: -50px auto 40px auto;
+}
+
+.therapy__title {
+    gap: 36px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 70px 0;
+}
+
+.therapy__title_title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #00214D;
+}
+
+.therapy__title_sub-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.primary-services__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #00214D;
+    margin: 0 0 38px 0;
+}
+
+.item__left_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: #3A3A3A;
+    margin: 0 0 30px 0;
+    max-width: 715px;
+}
+
+.item__left_text:last-child {
+    margin: 0;
+}
+.primary-services__items{
+    display: flex;
+    gap: 45px;
+    margin: 0 0 135px 0;
+}
+.periodicity__title{
+    max-width: 592px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #00214D;
+    margin:  0 0 50px 0;
+}
+.item__left_text-body{
+    max-width: 715px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: #3A3A3A;
+    margin: 0 0 30px 0;
+}
+.item__left_text-body:last-child{
+    margin: 0;
+}
+.left__text-body_price{
+    cursor: pointer;
+    color: #3781E3;
+}
+.periodicity__items{
+    display: flex;
+    gap: 53px;
+}
+.therapy__periodicity{
+    margin: 0 0 133px 0;
+}
